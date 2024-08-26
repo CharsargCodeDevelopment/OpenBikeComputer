@@ -18,6 +18,8 @@ var TriggerPerRevolution = 1;
 var SafeMode = true;
 var IRON = false;
 var TriggerRiseTime = 0;
+var VersionNumber = "0.1.1";
+var VersionName = "DevTest";
 require("Font7x11Numeric7Seg").add(Graphics);
 require("Font8x12").add(Graphics);
 //require("Storage").compact(true);
@@ -110,7 +112,7 @@ function UpdateDisplay() {
   g.drawString("MPH", 128, 0);
   }
   g.setFontAlign(1, 1);
-  g.drawString("V0.0.2 Debug 2", 128, 64);
+  g.drawString(VersionNumber, 128, 64);
 
 
 
